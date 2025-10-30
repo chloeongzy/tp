@@ -284,17 +284,17 @@ Finds clients whose names contain any of the given keywords.
 
 Format: `find KEYWORD [MORE_KEYWORDS]`
 
-* The search is case-insensitive. e.g `hans` will match `Hans`
-* The order of the keywords does not matter. e.g. `Hans Bo` will match `Bo Hans`
+* The search is case-insensitive. 
+* The order of the keywords does not matter. e.g. `Ber Yu` will match `Yu Ber`
 * Only the name is searched.
 * clients matching at least one keyword will be returned (i.e. `OR` search).
-  e.g. `Hans Bo` will return `Hans Gruber`, `Bo Yang`
 
 Examples:
 
-* `find John` returns `john` and `John Doe`
-* `find alex david` returns `Alex Yeoh`, `David Li`<br>
-  ![result for 'find alex david'](images/findAlexDavidResult.png)
+* `find Alex` returns `Alex Yeoh`
+* `find Yu Ber` returns `Bernice Yu`
+* `find ale davi` returns `Alex Yeoh`, `David Li`<br>
+  ![result for 'find ale davi'](images/findAlexDavidResult.png)
 
 <br>
 
